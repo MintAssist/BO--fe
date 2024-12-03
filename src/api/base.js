@@ -12,8 +12,8 @@ const roles = [
 	"superAdmin",
 ];
 
-const accessTokenKey = "knfsAccessToken";
-const currentUserKey = "currentUser";
-const refreshTokenKey = "refreshToken";
+const accessTokenKey = "__knfsBOAccessToken";
+const currentUserKey = "__BOcurrentUser";
+const refreshTokenKey = "__knfsBORefreshToken";
 
 export { buildApi, roles, accessTokenKey, refreshTokenKey, currentUserKey };
